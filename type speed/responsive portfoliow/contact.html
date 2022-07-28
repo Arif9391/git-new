@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About section</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="index.js"></script>
+</head>
+<body>
+    <header class="header">
+        <img src="images/logo.jpeg" alt="this is my logo"class="logo"/>
+           <nav class="navbar">
+          <ul class="navbar-lists">
+           <li><a href="/index.html"class="navbar-link home-link">Home</a></li>
+           <li><a href="/about.html"class="navbar-link about-link">about</a></li>
+           <li><a href="/services.html"class="navbar-link services-link">services</a></li>
+           <li><a href="/portfolio.html"class="navbar-link portfolio-link">portfolio</a></li>
+           <li><a href="/contact.html"class="navbar-link contact-link">contact</a></li>
+          </ul>
+       </nav>
+       <div class="mobile-navbar-btn">
+        <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+        <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+    </div>
+      </header>
+<!-- ================
+google map
+    ===============
+ --><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d930640.3148287417!2d90.8479976024344!3d24.335561850712942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37515ca9d5d76b83%3A0x2f15cfb871faa265!2sHabiganj%20District!5e0!3m2!1sen!2sbd!4v1652531696756!5m2!1sen!2sbd" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+ <section class="section section-contact">
+    <div class="container">
+        <h2 class="common-heading">contact us</h2>
+   </div>
+   <div class="section-contact-main contact-container">
+       <form action="https://formspree.io/f/mdobypyy"  method="POST">
+       
+           <div class="grid grid-two-column">
+               <div>
+               <label for="username"></label>
+               <input type="text" name="username" placeholder="username" id="username" required>
+               
+            </div>
+            <div>
+                <label for="email"></label>
+                <input type="email" name="email" placeholder="demo@mail.com" id="username" required>
+             </div>
+           </div>
+           <label for="textarea"></label>
+           <div>
+               <input type="text" name="subject" placeholder="subject" required/>
+           </div>
+           <div>
+            <textarea name="textarea" id="textarea" cols="30" rows="10" required min="5" placeholder="messages"> </textarea>
+        </div>
+        <input type="submit" name="submit" id="submit" class="btn">
+       </form>
+   </div>
+</section>
+
+<footer class="section-footer section">
+    <div class="container grid grid-four-column">
+        <div class="f-about">
+            <h3>about</h3>
+            <p>dolor sit amet consectetur adipisicing elit. Voluptatem quaerat labore amet alias hic sint veritatis enim obcaecati aperiam qui exercitationem, iste molestiae. Tenetur odit at, distinctio expedita sunt culpa?</p>
+
+        </div>
+        <!-- end  -->
+        <div class="f-link">
+            <h3>link</h3>
+            <ul>
+                <li>
+                    <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                    <a href="#">Poortfolio</a>
+                </li>
+                <li>
+                    <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- end  -->
+        <div class="f-services">
+            <h3>services</h3>
+            <ul>
+                <li>
+                    <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                    <a href="#">webdesign</a>
+                </li>
+                <li>
+                    <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                    <a href="#">web develop</a>
+                </li>
+                <li>
+                    <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                    <a href="#">more project</a>
+                </li>
+                <li>
+                    <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                    <a href="#">online classes</a>
+                </li>
+                <li>
+                    <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                    <a href="#">youtube course</a>
+                </li>
+            </ul>
+    </div>
+    <div class="f-address">
+        <h3>have a question</h3>
+        <address>
+            <div>
+                <p>
+                    <span><ion-icon name="location-outline"></ion-icon></span>
+                    Bangladesh, Habiganj. </p>
+            </div>
+            
+            <div>
+                <p>
+                    <span><ion-icon name="call-outline"></ion-icon></span>
+                    <a href="tel:+8801736974376" class="style"> +8801736974376</a>
+                </p>
+            </div>
+            <div>
+                <p>
+                    <span><ion-icon name="mail-open-outline"></ion-icon></span>
+                   <a href="mailto:arifstar077@gmail.com" class="style"> arifstar077@gmail.com</a>
+                </p>
+            </div>
+       
+        </address>
+       
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="f-social-icons">
+            <a href="#"><ion-icon name="logo-instagram" class="icons"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-discord"  class="icons"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-youtube"  class="icons"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-facebook"  class="icons"></ion-icon></a>
+        </div>
+        <div class="f-credits">
+           <p>copyright ©2022 all rights reserved ‖ this template is made with 🤍
+               by coding tutorial
+           </p>
+        </div>
+    </div>
+</footer>
+<script 
+type="module" 
+src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js">
+</script>
+<script
+ nomodule 
+ src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js">
+</script>
+</body>
+</html>
